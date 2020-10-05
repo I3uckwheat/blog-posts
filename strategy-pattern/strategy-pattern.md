@@ -131,7 +131,8 @@ This pattern is one that many developers implement without having to be exposed 
 
 * [A short overview of this pattern](https://refactoring.guru/design-patterns/strategy)
 * [Another short overview](https://sourcemaking.com/design_patterns/strategy)
-* An example being used in the real world
+
+### An example being used in the real world
   * [context](https://github.com/TheOdinProject/theodinproject/blob/master/app/services/discord_notifier.rb)
   * [a strategy](https://github.com/TheOdinProject/theodinproject/blob/master/app/services/notifications/flag_submission.rb)
   * [another strategy](https://github.com/TheOdinProject/theodinproject/blob/master/app/services/notifications/daily_summary.rb)
