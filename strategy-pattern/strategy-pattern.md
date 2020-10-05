@@ -86,7 +86,7 @@ class RankGradeStrategy extends GradeStrategy {
 }
 ~~~
 
-(live version)[https://repl.it/@I3uckwheat/strat-pat-examp#index.js]
+[live version](https://repl.it/@I3uckwheat/strat-pat-examp#index.js)
 
 Notice how the "context" in this example is what gets passed a grading strategy. This is used as the messenger between your application and the strategies. Each strategy has the same interface, and the context can use that to pass the proper data to it. Using a context makes it very simple to modify the API of the strategies without having to change every class that whishes to use that strategy. It also helps give a uniform API for managing strategies. 
 
