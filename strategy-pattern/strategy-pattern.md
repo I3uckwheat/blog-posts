@@ -1,6 +1,6 @@
 # Strategy Pattern
 
-Design patterns are a non-fundamental piece of software engineering. They are named and used not by their concrete examples, but by the patterns have been developed over time. They are used to help write cleaner, and more extensible code. This pattern facilitates composition over inheritance, which is considered good practice. 
+Design patterns are a non-fundamental piece of software engineering. They are named and used not by their concrete examples, but by the patterns that have been developed over time. They are used to help write cleaner, and more extensible code. This pattern facilitates composition over inheritance, which is considered good practice. 
 
 The **Strategy Pattern** is often used to replace chains of "if, else if, else" statements within classes. Whenever you identify a place where you're using different methods of processing data within the same context you can also use this pattern to help make it easier to add more ways of processing that data. For example, you may have different algorithms with different time or space complexity trade-offs to choose from.
 
