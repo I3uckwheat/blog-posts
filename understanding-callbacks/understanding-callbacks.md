@@ -27,15 +27,15 @@ This is actually called a `function declaration` and is broken into a few parts.
     - This tells the JavaScript compiler you are making a named function
 2. The name
     - This is the name of the function, and what you will use when you call it. It is also used in stack traces.
-3. The arguments
-    - everything between `(` and `)` is an argument, these must be separated by commas if there is more than one. There may also be nothing between the `()` if the function does not take any arguments. The parenthesis are required.
+3. The parameters
+    - everything between `(` and `)` is a parameter, these must be separated by commas if there is more than one. There may also be nothing between the `()` if the function does not take any parameters. The parenthesis are required.
 4. The function body
     - This is where the function actually does something. This code gets run with whatever values are passed into the parameters.
 
 
 #### 
 
-Calling a function looks similar to declaring it. When you call the function, you type the name of the function and add `()` after. (without the `function` keyword and the body). Inside the `()` you may pass it the values you want the parameters you defined to represent. These `parameters` are used like variables inside the body of the function.
+Calling a function looks similar to declaring it. When you call the function, you type the name of the function and add `()` after. (without the `function` keyword and the body). Inside the `()` you may pass it the values you want the parameters you defined to represent. These `arguments` are used like variables inside the body of the function.
 
 ~~~JavaScript
 // Calling a function
