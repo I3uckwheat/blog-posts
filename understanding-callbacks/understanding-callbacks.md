@@ -134,7 +134,7 @@ notes.forEach((note) => console.log(note));
 ~~~
 
 
-This is the `forEach` array method. This method simply takes a `callback` function as it's argument. (Don't forget that `forEach` is a function itself).
+This is the `forEach` array method. This method simply takes a `callback` function as its argument. (Don't forget that `forEach` is a function itself).
 
 There are many other ways to do the same thing (as is tradition in JavaScript), below are a few more ways to write this code:
 
