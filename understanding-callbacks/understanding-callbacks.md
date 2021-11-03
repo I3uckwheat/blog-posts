@@ -165,7 +165,7 @@ Below is what `forEach` might look like under the hood, notice it calls the `cal
 
 ~~~JavaScript
 function myForEach(array, callback) {
-  for (let i = 0; i < array.length -1; i++) {
+  for (let i = 0; i < array.length; i++) {
     callback(array[i]); // This is when the callback function gets called, or executed
   }
 }
