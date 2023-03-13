@@ -75,7 +75,7 @@ root.add(branch);
 root.doSomething();
 ~~~
 
-In the example above, you can see how each `Composite` has the ability to add leaves and other composites to it. Each leaf only *does* something, but does not have the ability to add more leaves to itself. If you are creative, you can do many interesting things with this pattern. 
+In the example above, you can see how each `Composite` has the ability to add leaves and other composites to it. Each leaf only *does* something, but does not have the ability to add more leaves to itself. If you are creative, you can do interesting things with this pattern. 
 
 ## Where is it used?
 
