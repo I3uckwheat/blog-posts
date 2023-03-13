@@ -93,7 +93,7 @@ A few important things to point out:
 
 * The getCtx() and the getAbsolutePosition() both have to traverse the tree to get data, this is a prime place for caching. 
 * There are two kinds of leaves here, an animated one and a non-animated one. Instead of having an animated leaf, one could have a composite that takes in leaves for animations. 
-* If you move the position of any composite, all it's children move as well.
+* If you move the position of any composite, all its children move as well.
 
 ## Conclusions
 
