@@ -79,7 +79,7 @@ In the example above, you can see how each `Composite` has the ability to add le
 
 ## Where is it used?
 
-The most prominent place this pattern is used is in the DOM. The DOM is a hierarchial system of "nodes" that do things. If you look back into old JS, you can find a "text node" which is a leaf that can be applied to a composite (<div>, <p>, <a>) to render text. This is clear evidence of the DOM using this pattern.
+The most prominent place this pattern is used is in the DOM. The DOM is a hierarchial system of "nodes" that do things. If you look back into old JS, you can find a "text node" which is a leaf that can be applied to a composite (`<div>`, `<p>`, `<a>`) to render text. This is clear evidence of the DOM using this pattern.
 
 Other than the DOM, any sort of UI framework likely uses this pattern. React for example.
 
